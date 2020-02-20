@@ -1,0 +1,61 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Grocery Item Input </h1>
+</header>
+
+<nav>
+<a href="/Tech-Exercise-GroceryList-Schmitt/search_Schmitt.html">Search Groceries</a> <br>
+</nav>
+
+<section>
+	<h1>Grocery Item Input</h1>
+	
+	<form action="InsertSchmitt" method="POST">
+	
+		Item: <input type="text" name="item"> <br />
+		Item Type: <input type="text" name="item_type"> <br />
+		Store: <input type="text" name="store"> <br />
+		Person: <input type="text" name="person"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright: chschmitt
+</footer>
+</body>
+</html>
