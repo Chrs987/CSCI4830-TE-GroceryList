@@ -59,7 +59,7 @@ public class InsertSchmitt extends HttpServlet {
             "  <li><b>Item</b>: " + item + "\n" + //
             "  <li><b>Item Type</b>: " + item_type + "\n" + //
             "  <li><b>Store</b>: " + store + "\n" + //
-            "  <li><b>Person</b>: " + person + "\n" + //
+            "  <li><b>Person who added</b>: " + person + "\n" + //
 
             "</ul>\n");
 
