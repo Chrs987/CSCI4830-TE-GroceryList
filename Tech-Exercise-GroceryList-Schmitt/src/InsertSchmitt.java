@@ -47,7 +47,7 @@ public class InsertSchmitt extends HttpServlet {
       // Set response content type
       response.setContentType("text/html");
       PrintWriter out = response.getWriter();
-      String title = "Insert Groceries into a Grocery List";
+      String title = "Inserted the item into the List successfully";
       String docType = "<!doctype html public \"-//w3c//dtd html 4.0 " + "transitional//en\">\n";
       out.println(docType + //
             "<html>\n" + //
@@ -63,7 +63,8 @@ public class InsertSchmitt extends HttpServlet {
 
             "</ul>\n");
 
-      out.println("<a href=/Tech-Exercise-GroceryList-Schmitt/search_Schmitt.html>Search Groceries</a> <br>");
+      out.println("<a href=/Tech-Exercise-GroceryList-Schmitt/search_Schmitt.html>Search Grocery List</a> <br>");
+      out.println("<a href=/Tech-Exercise-GroceryList-Schmitt/insert_Schmitt.html>Add More Groceries</a> <br>");
       out.println("</body></html>");
    }
 
