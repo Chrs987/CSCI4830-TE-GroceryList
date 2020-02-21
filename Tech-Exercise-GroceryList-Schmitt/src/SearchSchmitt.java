@@ -61,14 +61,14 @@ public class SearchSchmitt extends HttpServlet {
             String person = rs.getString("person").trim();
 
             if (keyword.isEmpty() || item.contains(keyword)) {
-               out.println("ID: " + id + ", ");
-               out.println("Item: " + item + ", ");
-               out.println("Item Type: " + item_type + ", ");
-               out.println("Store: " + store + "<br>");
-               out.println("Person who added: " + person + "<br>");
+               out.println("<b>ID</b>: " + id + ", ");
+               out.println("<b>Item</b>: " + item + ", ");
+               out.println("<b>Item Type</b>: " + item_type + ", ");
+               out.println("<b>Store</b>: " + store + ",");
+               out.println("<b>Person who added</b>: " + person + "<br>");
             }
          }
-         out.println("<a href=/Tech-Exercise-GroceryList-Schmitt/search_Schmitt.html>Search Groceries on your list</a> <br>");
+         out.println("<a href=/Tech-Exercise-GroceryList-Schmitt/search_Schmitt.html>Search Grocery List</a> <br>");
          out.println("<a href=/Tech-Exercise-GroceryList-Schmitt/insert_Schmitt.html>Add More Groceries</a> <br>");
          out.println("</body></html>");
          rs.close();
